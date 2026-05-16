@@ -1,0 +1,20 @@
+{
+    "name": "ptgs/php-cs-fixer-config",
+    "description": "Shared PHP-CS-Fixer config — drop-in standard ruleset for PHP projects.",
+    "type": "library",
+    "license": "MIT",
+    "homepage": "https://github.com/RentBetter/php-cs-fixer-config",
+    "require": {
+        "php": ">=8.4",
+        "friendsofphp/php-cs-fixer": "^3.93",
+        "kubawerlos/php-cs-fixer-custom-fixers": "^3.36"
+    },
+    "autoload": {
+        "psr-4": {
+            "PTGS\\PhpCsFixerConfig\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
